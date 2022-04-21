@@ -1,1 +1,1 @@
-# shoper-up2
+# shoper-up
