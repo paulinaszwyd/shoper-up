@@ -1,0 +1,117 @@
+
+/* Style */
+body {
+font-family: 'Roboto', sans-serif;
+background-color: white
+font-size: 16px;
+}
+
+a {
+    color:#2e0101;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.5;
+    max-width: 40%;
+}
+
+li {
+    list-style-type: disc;
+}
+li:hover {
+    color: pink;
+    transition: all 0.3;
+}
+
+/* EOF Style */
+
+/* Body */
+.title {
+    border-top: 1px solid rgb(77, 8, 45);
+    border-bottom: 10px double rgb(142, 13, 110);
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px ;
+    max-width: 2000px;
+    height: 327px;
+    margin: 1px;
+}
+
+.flexbox-container > div {
+    background-color: white;
+    border: 2px solid rgb(77, 8, 45);
+    border-radius: 10px;
+    width: 2000px;
+    height: 327px;
+    margin: 1px;
+    text-align: left;
+    justify-content: center;
+    flex-direction: flex;
+   
+}
+
+.box1_part1 {
+    background-image: url(../images/cytryny.jpg);
+    background-size: cover;
+    padding: 40px 20px;
+    border-bottom: 1px solid rgb(77, 8, 45);
+    text-align: left;
+}
+
+.box2_part1 {
+    background-image: url(../images/pomidory.jpg);
+    background-size: cover;
+    padding: 40px 20px;
+    border-bottom: 1px solid rgb(77, 8, 45);
+    text-align: left;
+}
+
+.box3_part1 {
+    background-image: url(../images/jajka.jpg);
+    background-size: cover;
+    padding: 40px 20px;
+    border-bottom: 1px solid rgb(77, 8, 45);
+    text-align: left;
+}
+
+.box_list {
+ 
+    text-align: left;
+}
+  
+.box_part3 {
+    text-align: right;
+    padding:10px;
+    border-top: 1px solid black;
+    background-color: rgb(86, 170, 145);
+    font-weight:  bold;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* EOF Body*/
+
+/* Footer */
+footer {
+    text-align: left;
+    font-size: 30;
+    font-weight:  bold;
+    padding: 20px;
+
+}
+/* EOF Footer*/
