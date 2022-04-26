@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS flexbox exercise 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,700&display=swap" rel="stylesheet">
+        <link href="reset.css" rel="stylesheet" type="text/css" href="./style/reset.css">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <div class="title">
+                <h1>Lista zakupów</h1>
+                </div>
+                    <div class="flexbox-container">
+
+                        <div class="box1">
+                            <div class="box1_part1">
+                                <h3>Owoce</h3>
+                            </div>
+                            <div class="box1_part2">
+                                <ul class="box_list">
+                                    <li>maliny</li>
+                                    <li>truskawki</li>
+                                    <li>jagody</li>
+                                    <li>poziomki</li>
+                                    <li>agrest</li>
+                                </ul>
+                            </div>
+                            <div class="box_part3">
+                                <label for="checklist-1">
+                                    Owoce kupione
+                                    <input type="checkbox" id="checklist1" name="checklist1">
+                                </label>
+                            </div>
+                        </div>
+                      
+                    <div class="box2">
+                       <div class="box2_part1">
+                            <h3>Warzywa</h3>
+                        </div>
+                        <div class="box2_part2">
+                            <ul class="box_list">
+                                <ul>
+                                    <li>sałata</li>
+                                    <li>ogórki:</li>
+                                <ul>
+                                    <li>kiszone</li>
+                                    <li>świeże</li>
+                                </ul>
+                                    <li>marchew</li>
+                                </ul>
+                            </div>
+                            <div class="box_part3">
+                                <label for="checklist-1">
+                        <label for="checbox2">
+                            Warzywa kupione
+                        </label>
+                        <input type="checkbox" name="checklist2" id="checklist2" class="checkbox" value="1">
+                    </div>
+                    </div>
+
+                    <div class="box3">
+                            <div class="box3_part1">
+                            <h3>Nabiał</h3>
+                        </div>    
+                            <div class="box3_part2">
+                                <ul class="box_list">    
+                                <ul>
+                                    <li>mleko</li>
+                                    <li>twaróg</li>
+                                    <li>sery:</li>
+                                <ul>
+                                    <li>żółty</li>
+                                    <li>camembert</li>
+                                </ul>
+                                </div>
+                                <div class="box_part3">
+                                <label for="checbox3">
+                                   Nabiał kupiony
+                                </label>
+                                <input type="checkbox" name="checklist3" id="checklist3" class="checkbox" value="1">
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Shoper 2022</p>
+        </footer>
+    </body>
+</html>
